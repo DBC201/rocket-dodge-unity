@@ -10,6 +10,7 @@ public class Rocket : MonoBehaviour
 	public Player player;
 	public Score score;
 	public GameManager gameManager;
+	public ParticleSystem explosionPrefab;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,7 @@ public class Rocket : MonoBehaviour
         if (collision.gameObject.tag == "Rocket")
         {
             Destroy(collision.gameObject);
+			Instantiate(explosionPrefab, transform.position, Quaternion.identity);
 			score.addScore(10);
 			Destroy(this);
         }

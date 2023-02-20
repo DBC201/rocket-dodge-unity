@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
 	public float rocketRotationSpeed = 0;
 	public Score score;
 	public bool isInfinite = false;
+	public ParticleSystem explosionPrefab;
 
 	private float m_interval;
 	private Vector3 m_origin;
@@ -87,6 +88,7 @@ public class GameManager : MonoBehaviour
 		rocketGameObject.GetComponent<Rocket>().rotationSpeed = rocketRotationSpeed;
 		rocketGameObject.GetComponent<Rocket>().score = score;
 		rocketGameObject.GetComponent<Rocket>().gameManager = this;
+		rocketGameObject.GetComponent<Rocket>().explosionPrefab = explosionPrefab;
 	}
 
     // Update is called once per frame

@@ -332,6 +332,7 @@ MonoBehaviour:
   rocketRotationSpeed: 1000
   score: {fileID: 1601356415}
   isInfinite: 0
+  explosionPrefab: {fileID: 7620539322536980011, guid: 0277f8fcdefb4bf47a18538623570007, type: 3}
 --- !u!1 &1601356411
 GameObject:
   m_ObjectHideFlags: 0

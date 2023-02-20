@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Git for Unity
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 60
+  controlID: 91
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -68,14 +68,14 @@ MonoBehaviour:
     y: 0
     width: 444
     height: 939
-  m_MinSize: {x: 100, y: 100}
+  m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 61
+  controlID: 92
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 62
+  controlID: 93
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -269,8 +269,8 @@ MonoBehaviour:
     y: 0
     width: 1112
     height: 556
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -309,17 +309,17 @@ MonoBehaviour:
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
+  currentTrackingStatusHasUpdate: 1
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
   changeTab: 3
   activeTab: 3
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
     lastCheckUserChangedEvent:
-      updatedTimeString: 2023-02-18T11:45:53.370-05:00
+      updatedTimeString: 2023-02-18T15:37:09.974-05:00
       cacheType: 8
   branchesView:
     treeLocals:
@@ -452,8 +452,8 @@ MonoBehaviour:
     remoteBranches: []
   changesView:
     currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
     currentBranch: master
@@ -463,8 +463,46 @@ MonoBehaviour:
         keys: []
         values: []
       folders:
-        keys: []
-        values: []
+        keys:
+        - UserSettings
+        - UserSettings\Layouts
+        values:
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings\Layouts
+          label: Layouts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -493,6 +531,78 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        label: EditorUserSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\dbc20\unity_projects\rocket dodge\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: UserSettings\Layouts
+        label: Layouts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        label: default-2021.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\dbc20\unity_projects\rocket dodge\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -512,62 +622,44 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries: []
-    changedFilesText: No changed files
+    gitStatusEntries:
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: C:\Users\dbc20\unity_projects\rocket dodge\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UserSettings\Layouts\default-2021.dwlt
+      fullPath: C:\Users\dbc20\unity_projects\rocket dodge\UserSettings\Layouts\default-2021.dwlt
+      projectPath: UserSettings\Layouts\default-2021.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 2 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-02-18T15:29:05.915-05:00
+      updatedTimeString: 2023-02-20T10:45:52.292-05:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-02-18T15:36:06.682-05:00
+      updatedTimeString: 2023-02-20T11:14:13.857-05:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-02-18T15:29:10.968-05:00
+      updatedTimeString: 2023-02-20T11:11:36.399-05:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
-    - commitID: 8528b9a96d7caed446a35699ee0e5bac4e2c9e9a
+    - commitID: 7147f90de1c2c28d75aaeb798a8e90bdcc85ac76
       mergeA: 
       mergeB: 
       authorName: dbc201
       authorEmail: denizbcakiroglu@gmail.com
       commitEmail: denizbcakiroglu@gmail.com
       commitName: dbc201
-      summary: infinite
+      summary: init2
       description: 
-      timeString: 2023-02-18T15:22:04.000-05:00
-      commitTimeString: 2023-02-18T15:22:04.000-05:00
-      changes:
-      - path: Assets\Scenes\MainMenu.unity
-        fullPath: C:\Users\dbc20\unity_projects\rocket dodge\Assets\Scenes\MainMenu.unity
-        projectPath: Assets\Scenes\MainMenu.unity
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: ProjectSettings\EditorBuildSettings.asset
-        fullPath: C:\Users\dbc20\unity_projects\rocket dodge\ProjectSettings\EditorBuildSettings.asset
-        projectPath: ProjectSettings\EditorBuildSettings.asset
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2021.dwlt
-        fullPath: C:\Users\dbc20\unity_projects\rocket dodge\UserSettings\Layouts\default-2021.dwlt
-        projectPath: UserSettings\Layouts\default-2021.dwlt
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-    - commitID: dd9ab67dd6348971a45e94b39c31e4de6790d44d
-      mergeA: 
-      mergeB: 
-      authorName: dbc201
-      authorEmail: denizbcakiroglu@gmail.com
-      commitEmail: denizbcakiroglu@gmail.com
-      commitName: dbc201
-      summary: init
-      description: 
-      timeString: 2023-02-18T11:46:20.000-05:00
-      commitTimeString: 2023-02-18T11:46:20.000-05:00
+      timeString: 2023-02-18T15:37:26.000-05:00
+      commitTimeString: 2023-02-18T15:37:26.000-05:00
       changes:
       - path: Assets\Materials.meta
         fullPath: C:\Users\dbc20\unity_projects\rocket dodge\Assets\Materials.meta
@@ -2324,7 +2416,7 @@ MonoBehaviour:
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-    - commitID: 1029e7b94251558e1175adc35fe11fce8f408a9b
+    - commitID: 7d5df394ec50bb52eeb251afbbf7e6814f140aaf
       mergeA: 
       mergeB: 
       authorName: dbc201
@@ -2333,8 +2425,8 @@ MonoBehaviour:
       commitName: dbc201
       summary: Initial commit
       description: 
-      timeString: 2023-02-18T11:45:56.000-05:00
-      commitTimeString: 2023-02-18T11:45:56.000-05:00
+      timeString: 2023-02-18T15:37:13.000-05:00
+      commitTimeString: 2023-02-18T15:37:13.000-05:00
       changes:
       - path: .gitattributes
         fullPath: C:\Users\dbc20\unity_projects\rocket dodge\.gitattributes
@@ -2356,55 +2448,25 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2023-02-18T15:27:38.694-05:00
+      updatedTimeString: 2023-02-18T15:43:54.250-05:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2023-02-18T15:24:51.250-05:00
+      updatedTimeString: 2023-02-18T15:43:54.256-05:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
-      - commitID: 8528b9a96d7caed446a35699ee0e5bac4e2c9e9a
+      - commitID: 7147f90de1c2c28d75aaeb798a8e90bdcc85ac76
         mergeA: 
         mergeB: 
         authorName: dbc201
         authorEmail: denizbcakiroglu@gmail.com
         commitEmail: denizbcakiroglu@gmail.com
         commitName: dbc201
-        summary: infinite
+        summary: init2
         description: 
-        timeString: 2023-02-18T15:22:04.000-05:00
-        commitTimeString: 2023-02-18T15:22:04.000-05:00
-        changes:
-        - path: Assets\Scenes\MainMenu.unity
-          fullPath: C:\Users\dbc20\unity_projects\rocket dodge\Assets\Scenes\MainMenu.unity
-          projectPath: Assets\Scenes\MainMenu.unity
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-        - path: ProjectSettings\EditorBuildSettings.asset
-          fullPath: C:\Users\dbc20\unity_projects\rocket dodge\ProjectSettings\EditorBuildSettings.asset
-          projectPath: ProjectSettings\EditorBuildSettings.asset
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-        - path: UserSettings\Layouts\default-2021.dwlt
-          fullPath: C:\Users\dbc20\unity_projects\rocket dodge\UserSettings\Layouts\default-2021.dwlt
-          projectPath: UserSettings\Layouts\default-2021.dwlt
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - commitID: dd9ab67dd6348971a45e94b39c31e4de6790d44d
-        mergeA: 
-        mergeB: 
-        authorName: dbc201
-        authorEmail: denizbcakiroglu@gmail.com
-        commitEmail: denizbcakiroglu@gmail.com
-        commitName: dbc201
-        summary: init
-        description: 
-        timeString: 2023-02-18T11:46:20.000-05:00
-        commitTimeString: 2023-02-18T11:46:20.000-05:00
+        timeString: 2023-02-18T15:37:26.000-05:00
+        commitTimeString: 2023-02-18T15:37:26.000-05:00
         changes:
         - path: Assets\Materials.meta
           fullPath: C:\Users\dbc20\unity_projects\rocket dodge\Assets\Materials.meta
@@ -4163,7 +4225,7 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
-      - commitID: 1029e7b94251558e1175adc35fe11fce8f408a9b
+      - commitID: 7d5df394ec50bb52eeb251afbbf7e6814f140aaf
         mergeA: 
         mergeB: 
         authorName: dbc201
@@ -4172,8 +4234,8 @@ MonoBehaviour:
         commitName: dbc201
         summary: Initial commit
         description: 
-        timeString: 2023-02-18T11:45:56.000-05:00
-        commitTimeString: 2023-02-18T11:45:56.000-05:00
+        timeString: 2023-02-18T15:37:13.000-05:00
+        commitTimeString: 2023-02-18T15:37:13.000-05:00
         changes:
         - path: .gitattributes
           fullPath: C:\Users\dbc20\unity_projects\rocket dodge\.gitattributes
@@ -4255,7 +4317,7 @@ MonoBehaviour:
       changingManually: 0
     hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2023-02-18T15:21:20.590-05:00
+      updatedTimeString: 2023-02-18T15:37:46.977-05:00
       cacheType: 1
     newRepositoryRemoteUrl: git@github.com:DBC201/rocket-dodge-unity.git
     repositoryRemoteName: origin
@@ -4268,7 +4330,7 @@ MonoBehaviour:
       newGitEmail: denizbcakiroglu@gmail.com
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2023-02-18T15:23:03.446-05:00
+        updatedTimeString: 2023-02-18T15:37:09.974-05:00
         cacheType: 8
     webTimeout: 100000
     gitTimeout: 5000
@@ -4322,8 +4384,8 @@ MonoBehaviour:
   currentRemoteUrl: git@github.com:DBC201/rocket-dodge-unity.git
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 0
-  isTrackingRemoteBranch: 0
+  hasItemsToCommit: 1
+  isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: master
     m_Image: {fileID: 0}
@@ -4333,13 +4395,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-02-18T15:29:05.915-05:00
+    updatedTimeString: 2023-02-20T10:45:52.292-05:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-02-18T15:36:06.698-05:00
+    updatedTimeString: 2023-02-20T10:49:19.824-05:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-02-18T15:36:06.682-05:00
+    updatedTimeString: 2023-02-20T10:49:19.824-05:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -4403,22 +4465,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/TextMesh Pro/Sprites
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/TextMesh Pro/Sprites
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\dbc20\unity_projects\rocket dodge
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 88610000
-    m_LastClickedID: 24968
-    m_ExpandedIDs: 00000000fc5b0000105c000000ca9a3b
+    scrollPos: {x: 0, y: 14}
+    m_SelectedIDs: 0a5c0000
+    m_LastClickedID: 23562
+    m_ExpandedIDs: 00000000fc5b0000fe5b0000005c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -4446,7 +4508,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fc5b0000
+    m_ExpandedIDs: 00000000fc5b0000fe5b0000005c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -4474,7 +4536,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -4576,21 +4638,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 38fbffff3c5b0000
+      m_ExpandedIDs: 388cffff888cffffb48cffffe48cfffff08cffffc08fffff0e90ffff3a90ffff6a90ffff7690ffffe292ffff3093ffff6a94ffff9a94ffffb694ffff7e95ffff3096ffff0697fffffac0fffff8cbffff4accffff0ee4ffff38fbffff78600000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Explosion
+        m_OriginalName: Explosion
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -16134
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -4820,7 +4882,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 0
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Particles
@@ -4858,9 +4920,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 468.91428, y: 276.86877, z: 9.718597}
+    m_Target: {x: 5.338, y: 29.555187, z: 133.122}
     speed: 2
-    m_Value: {x: 468.91428, y: 276.86877, z: 9.718597}
+    m_Value: {x: 5.2782335, y: 29.441929, z: 133.10486}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -4907,13 +4969,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.025179498, y: 0.025484474, z: 0.00064165576, w: 0.9993615}
+    m_Target: {x: 0.06920179, y: 0.038891267, z: -0.002719302, w: 0.9968519}
     speed: 2
-    m_Value: {x: -0.025179408, y: 0.025484383, z: 0.0006416535, w: 0.99935794}
+    m_Value: {x: 0.109571256, y: 0.017884169, z: -0.001991348, w: 0.9938161}
   m_Size:
-    m_Target: 239.68626
+    m_Target: 2.9618113
     speed: 2
-    m_Value: 239.68626
+    m_Value: 0.71066016
   m_Ortho:
     m_Target: 0
     speed: 2
