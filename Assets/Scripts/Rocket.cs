@@ -11,6 +11,7 @@ public class Rocket : MonoBehaviour
 	public Score score;
 	public GameManager gameManager;
 	public ParticleSystem explosionPrefab;
+	public AudioClip explosionAudio;
 
     // Start is called before the first frame update
     void Start()
@@ -30,12 +31,13 @@ public class Rocket : MonoBehaviour
 
 	void OnCollisionEnter(Collision collision)
     {
+		AudioSource.PlayClipAtPoint(explosionAudio, transform.position);
         if (collision.gameObject.tag == "Rocket")
         {
             Destroy(collision.gameObject);
 			Instantiate(explosionPrefab, transform.position, Quaternion.identity);
 			score.addScore(10);
-			Destroy(this);
+			Destroy(this.gameObject);
         }
 		else if (collision.gameObject.tag == "Player") {
 			//Debug.Log("Player has been hit!");

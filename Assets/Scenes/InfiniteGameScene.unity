@@ -150,6 +150,7 @@ MonoBehaviour:
   score: {fileID: 1311890237}
   isInfinite: 1
   explosionPrefab: {fileID: 7620539322536980011, guid: 0277f8fcdefb4bf47a18538623570007, type: 3}
+  explosionAudio: {fileID: 8300000, guid: f0b860246950f5c4cbee49133909746c, type: 3}
 --- !u!114 &363360901 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8877812160197083220, guid: c56aa57a13b9681448e91544c093c6ba, type: 3}
