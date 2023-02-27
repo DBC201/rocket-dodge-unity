@@ -110,3 +110,5 @@ MonoBehaviour:
   rotationSpeed: 0
   player: {fileID: 0}
   score: {fileID: 0}
+  explosionPrefab: {fileID: 0}
+  explosionAudio: {fileID: 0}

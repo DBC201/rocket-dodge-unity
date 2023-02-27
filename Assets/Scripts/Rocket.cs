@@ -9,7 +9,6 @@ public class Rocket : MonoBehaviour
 	public float rotationSpeed = 0;
 	public Player player;
 	public Score score;
-	public GameManager gameManager;
 	public ParticleSystem explosionPrefab;
 	public AudioClip explosionAudio;
 
@@ -40,8 +39,9 @@ public class Rocket : MonoBehaviour
 			Destroy(this.gameObject);
         }
 		else if (collision.gameObject.tag == "Player") {
-			//Debug.Log("Player has been hit!");
-			gameManager.MainMenu();
+			Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+			score.addScore(10);
+			Destroy(this.gameObject);
 		}
     }
 }

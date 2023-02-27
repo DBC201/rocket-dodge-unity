@@ -88,7 +88,6 @@ public class GameManager : MonoBehaviour
 		rocketGameObject.GetComponent<Rocket>().speed = rocketSpeed;
 		rocketGameObject.GetComponent<Rocket>().rotationSpeed = rocketRotationSpeed;
 		rocketGameObject.GetComponent<Rocket>().score = score;
-		rocketGameObject.GetComponent<Rocket>().gameManager = this;
 		rocketGameObject.GetComponent<Rocket>().explosionPrefab = explosionPrefab;
 		rocketGameObject.GetComponent<Rocket>().explosionAudio = explosionAudio;
 	}
