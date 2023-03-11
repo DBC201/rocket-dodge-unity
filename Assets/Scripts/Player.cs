@@ -8,6 +8,9 @@ public class Player : MonoBehaviour
 	public float shieldDurationInSeconds = 5f;
 	public GameManager gameManager;
 
+	public GameObject shield;
+	public AudioSource shieldDieSource;
+
 	private float m_shieldRecharge;
 	private float m_shieldDuration;
 
@@ -34,7 +37,11 @@ public class Player : MonoBehaviour
 				shieldEnabled = false;
 				m_shieldDuration = shieldDurationInSeconds;
 				m_shieldRecharge = shieldRechargeInSeconds;
-				Debug.Log("shield deactivated");
+				if (shieldDieSource != null) {
+					shieldDieSource.Play();
+				}
+				shield.SetActive(false);
+				//Debug.Log("shield deactivated");
 			}
 		}
 		else {
@@ -72,7 +79,8 @@ public class Player : MonoBehaviour
 
 		if (Input.GetKeyDown(KeyCode.Space) && m_shieldRecharge == 0 && !shieldEnabled) {
 			shieldEnabled = true;
-			Debug.Log("shield activated");
+			shield.SetActive(true);
+			//Debug.Log("shield activated");
 		}
 
 		if (forward) {

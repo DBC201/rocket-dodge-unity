@@ -11,6 +11,8 @@ public class Rocket : MonoBehaviour
 	public Score score;
 	public ParticleSystem explosionPrefab;
 	public AudioClip explosionAudio;
+	public bool autoExplode = false;
+	public float explodeTime = 10f;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +23,14 @@ public class Rocket : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+		if(autoExplode) {
+			if (explodeTime < 0) {
+				AudioSource.PlayClipAtPoint(explosionAudio, transform.position);
+				Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+				Destroy(this.gameObject);
+			}
+			explodeTime -= Time.deltaTime;
+		}
     	Vector3 direction = player.transform.position - transform.position;
     	Quaternion rotation = Quaternion.LookRotation(direction);
     	transform.rotation = Quaternion.Slerp(transform.rotation, rotation, speed * Time.deltaTime);

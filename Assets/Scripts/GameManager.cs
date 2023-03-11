@@ -16,6 +16,8 @@ public class GameManager : MonoBehaviour
 	public bool isInfinite = false;
 	public ParticleSystem explosionPrefab;
 	public AudioClip explosionAudio;
+	public bool autoExplodeRockets = false;
+	public float explodeTime = 10f;
 
 	private float m_interval;
 	private Vector3 m_origin;
@@ -90,6 +92,8 @@ public class GameManager : MonoBehaviour
 		rocketGameObject.GetComponent<Rocket>().score = score;
 		rocketGameObject.GetComponent<Rocket>().explosionPrefab = explosionPrefab;
 		rocketGameObject.GetComponent<Rocket>().explosionAudio = explosionAudio;
+		rocketGameObject.GetComponent<Rocket>().autoExplode = autoExplodeRockets;
+		rocketGameObject.GetComponent<Rocket>().explodeTime = explodeTime;
 	}
 
     // Update is called once per frame
