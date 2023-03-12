@@ -428,7 +428,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8877812160197083220, guid: c56aa57a13b9681448e91544c093c6ba, type: 3}
       propertyPath: speed
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8877812160197083220, guid: c56aa57a13b9681448e91544c093c6ba, type: 3}
       propertyPath: shieldBar
@@ -444,11 +444,11 @@ PrefabInstance:
       objectReference: {fileID: 1989015751}
     - target: {fileID: 8877812160197083220, guid: c56aa57a13b9681448e91544c093c6ba, type: 3}
       propertyPath: shieldDurationInSeconds
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8877812160197083220, guid: c56aa57a13b9681448e91544c093c6ba, type: 3}
       propertyPath: shieldRechargeInSeconds
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8877812160197083222, guid: c56aa57a13b9681448e91544c093c6ba, type: 3}
       propertyPath: m_RootOrder
@@ -1675,7 +1675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnInterval: 1
-  spawnIntervalDecrease: 10
+  spawnIntervalDecrease: 5
   spawnIntervalDecreaseIncrease: 1
   player: {fileID: 363360901}
   rocketPrefab: {fileID: 8314850214761855199, guid: cfbb8b7b3998cbd45923050cf0b6c77a, type: 3}
@@ -1686,9 +1686,10 @@ MonoBehaviour:
   explosionPrefab: {fileID: 7620539322536980011, guid: 0277f8fcdefb4bf47a18538623570007, type: 3}
   explosionAudio: {fileID: 8300000, guid: f0b860246950f5c4cbee49133909746c, type: 3}
   autoExplodeRockets: 1
-  explodeTime: 15
+  explodeTime: 10
   pauseMenuScreen: {fileID: 18629023}
   gameOverScreen: {fileID: 659984030}
+  camera: {fileID: 1801227434}
 --- !u!4 &1989015752
 Transform:
   m_ObjectHideFlags: 0

@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
 	public float explodeTime = 10f;
 	public GameObject pauseMenuScreen;
 	public GameObject gameOverScreen;
+	public Camera camera;
 
 
 	private bool gamePaused = false;
