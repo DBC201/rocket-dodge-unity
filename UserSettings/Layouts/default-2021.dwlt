@@ -15,9 +15,9 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 42
-    width: 1536
-    height: 782
+    y: 43
+    width: 1920
+    height: 989
   m_ShowMode: 4
   m_Title: Git for Unity
   m_RootView: {fileID: 6}
@@ -43,12 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1536
-    height: 732
+    width: 1920
+    height: 939
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 100
+  controlID: 106
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,10 +64,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1180.8
+    x: 1476
     y: 0
-    width: 355.19995
-    height: 732
+    width: 444
+    height: 939
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 12}
@@ -93,10 +93,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 291.2
-    height: 433.6
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 364
+    height: 557
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -118,9 +118,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 433.6
-    width: 1180.8
-    height: 298.4
+    y: 557
+    width: 1476
+    height: 382
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 13}
@@ -149,8 +149,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1536
-    height: 782
+    width: 1920
+    height: 989
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -174,7 +174,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1536
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -195,8 +195,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 762
-    width: 1536
+    y: 969
+    width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -219,12 +219,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1180.8
-    height: 732
+    width: 1476
+    height: 939
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 21
+  controlID: 94
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,12 +244,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1180.8
-    height: 433.6
+    width: 1476
+    height: 557
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 22
+  controlID: 95
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,10 +265,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 291.2
+    x: 364
     y: 0
-    width: 889.60004
-    height: 433.6
+    width: 1112
+    height: 557
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -297,10 +297,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1180.8
-    y: 72
-    width: 354.19995
-    height: 711
+    x: 1476
+    y: 73
+    width: 443
+    height: 918
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -457,7 +457,7 @@ MonoBehaviour:
     commitBody: 
     commitMessage: 
     currentBranch: master
-    treeScroll: {x: 0, y: 0}
+    treeScroll: {x: 0, y: 1800}
     treeChanges:
       assets:
         keys: []
@@ -515,13 +515,13 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-02-27T12:51:01.414-05:00
+      updatedTimeString: 2023-03-11T18:42:00.853-05:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-02-27T12:50:55.670-05:00
+      updatedTimeString: 2023-03-11T18:41:36.431-05:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-02-27T12:50:18.603-05:00
+      updatedTimeString: 2023-03-11T18:41:20.454-05:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -4237,16 +4237,1384 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 Jan 0001, 00:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2023-02-18T15:21:20.590-05:00
+      updatedTimeString: 2023-03-11T17:51:34.359-05:00
       cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 2023-02-18T15:24:17.714-05:00
+      updatedTimeString: 2023-03-11T18:41:20.454-05:00
       cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-02-18T15:24:16.147-05:00
+      updatedTimeString: 2023-03-11T18:41:20.362-05:00
       cacheType: 6
     lockedFiles: []
-    gitStatusEntries: []
+    gitStatusEntries:
+    - path: Assets\Audio\mixkit-electricity-reactor-buzz-904.wav
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\Audio\mixkit-electricity-reactor-buzz-904.wav
+      projectPath: Assets\Audio\mixkit-electricity-reactor-buzz-904.wav
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Audio\mixkit-electricity-reactor-buzz-904.wav.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\Audio\mixkit-electricity-reactor-buzz-904.wav.meta
+      projectPath: Assets\Audio\mixkit-electricity-reactor-buzz-904.wav.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Audio\mixkit-fast-game-explosion-1688.wav
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\Audio\mixkit-fast-game-explosion-1688.wav
+      projectPath: Assets\Audio\mixkit-fast-game-explosion-1688.wav
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Audio\mixkit-fast-game-explosion-1688.wav.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\Audio\mixkit-fast-game-explosion-1688.wav.meta
+      projectPath: Assets\Audio\mixkit-fast-game-explosion-1688.wav.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Audio\mixkit-futuristic-electricity-sparks-2598.wav
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\Audio\mixkit-futuristic-electricity-sparks-2598.wav
+      projectPath: Assets\Audio\mixkit-futuristic-electricity-sparks-2598.wav
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Audio\mixkit-futuristic-electricity-sparks-2598.wav.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\Audio\mixkit-futuristic-electricity-sparks-2598.wav.meta
+      projectPath: Assets\Audio\mixkit-futuristic-electricity-sparks-2598.wav.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Audio\mixkit-machine-activation-short-3180.wav
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\Audio\mixkit-machine-activation-short-3180.wav
+      projectPath: Assets\Audio\mixkit-machine-activation-short-3180.wav
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Audio\mixkit-machine-activation-short-3180.wav.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\Audio\mixkit-machine-activation-short-3180.wav.meta
+      projectPath: Assets\Audio\mixkit-machine-activation-short-3180.wav.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Audio\mixkit-pixel-chiptune-explosion-1692.wav
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\Audio\mixkit-pixel-chiptune-explosion-1692.wav
+      projectPath: Assets\Audio\mixkit-pixel-chiptune-explosion-1692.wav
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Audio\mixkit-pixel-chiptune-explosion-1692.wav.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\Audio\mixkit-pixel-chiptune-explosion-1692.wav.meta
+      projectPath: Assets\Audio\mixkit-pixel-chiptune-explosion-1692.wav.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\ForceShield.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield.meta
+      projectPath: Assets\ForceShield.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example.meta
+      projectPath: Assets\ForceShield\ForceShiled_Example.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example.unity
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example.unity
+      projectPath: Assets\ForceShield\ForceShiled_Example.unity
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example.unity.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example.unity.meta
+      projectPath: Assets\ForceShield\ForceShiled_Example.unity.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\LightingData.asset
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\LightingData.asset
+      projectPath: Assets\ForceShield\ForceShiled_Example\LightingData.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\LightingData.asset.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\LightingData.asset.meta
+      projectPath: Assets\ForceShield\ForceShiled_Example\LightingData.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-0_comp_dir.png
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-0_comp_dir.png
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-0_comp_dir.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-0_comp_dir.png.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-0_comp_dir.png.meta
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-0_comp_dir.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-0_comp_light.exr
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-0_comp_light.exr
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-0_comp_light.exr
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-0_comp_light.exr.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-0_comp_light.exr.meta
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-0_comp_light.exr.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-1_comp_dir.png
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-1_comp_dir.png
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-1_comp_dir.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-1_comp_dir.png.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-1_comp_dir.png.meta
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-1_comp_dir.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-1_comp_light.exr
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-1_comp_light.exr
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-1_comp_light.exr
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-1_comp_light.exr.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-1_comp_light.exr.meta
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-1_comp_light.exr.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-2_comp_dir.png
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-2_comp_dir.png
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-2_comp_dir.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-2_comp_dir.png.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-2_comp_dir.png.meta
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-2_comp_dir.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-2_comp_light.exr
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-2_comp_light.exr
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-2_comp_light.exr
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-2_comp_light.exr.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-2_comp_light.exr.meta
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-2_comp_light.exr.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-3_comp_dir.png
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-3_comp_dir.png
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-3_comp_dir.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-3_comp_dir.png.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-3_comp_dir.png.meta
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-3_comp_dir.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-3_comp_light.exr
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-3_comp_light.exr
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-3_comp_light.exr
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-3_comp_light.exr.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-3_comp_light.exr.meta
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-3_comp_light.exr.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-4_comp_dir.png
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-4_comp_dir.png
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-4_comp_dir.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-4_comp_dir.png.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-4_comp_dir.png.meta
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-4_comp_dir.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-4_comp_light.exr
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-4_comp_light.exr
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-4_comp_light.exr
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-4_comp_light.exr.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-4_comp_light.exr.meta
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-4_comp_light.exr.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-5_comp_dir.png
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-5_comp_dir.png
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-5_comp_dir.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-5_comp_dir.png.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-5_comp_dir.png.meta
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-5_comp_dir.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-5_comp_light.exr
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-5_comp_light.exr
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-5_comp_light.exr
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-5_comp_light.exr.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-5_comp_light.exr.meta
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-5_comp_light.exr.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-6_comp_dir.png
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-6_comp_dir.png
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-6_comp_dir.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-6_comp_dir.png.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-6_comp_dir.png.meta
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-6_comp_dir.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-6_comp_light.exr
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-6_comp_light.exr
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-6_comp_light.exr
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\ForceShiled_Example\Lightmap-6_comp_light.exr.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\ForceShiled_Example\Lightmap-6_comp_light.exr.meta
+      projectPath: Assets\ForceShield\ForceShiled_Example\Lightmap-6_comp_light.exr.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Materials.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Materials.meta
+      projectPath: Assets\ForceShield\Materials.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Materials\ForceShieldMat.mat
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Materials\ForceShieldMat.mat
+      projectPath: Assets\ForceShield\Materials\ForceShieldMat.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Materials\ForceShieldMat.mat.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Materials\ForceShieldMat.mat.meta
+      projectPath: Assets\ForceShield\Materials\ForceShieldMat.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Materials\LaserMat.mat
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Materials\LaserMat.mat
+      projectPath: Assets\ForceShield\Materials\LaserMat.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Materials\LaserMat.mat.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Materials\LaserMat.mat.meta
+      projectPath: Assets\ForceShield\Materials\LaserMat.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc.meta
+      projectPath: Assets\ForceShield\Misc.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom.meta
+      projectPath: Assets\ForceShield\Misc\_ShowRoom.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Materials.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Materials.meta
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Materials.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Materials\DarkGrey_01.mat
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Materials\DarkGrey_01.mat
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Materials\DarkGrey_01.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Materials\DarkGrey_01.mat.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Materials\DarkGrey_01.mat.meta
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Materials\DarkGrey_01.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Materials\Diffuse_01.mat
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Materials\Diffuse_01.mat
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Materials\Diffuse_01.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Materials\Diffuse_01.mat.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Materials\Diffuse_01.mat.meta
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Materials\Diffuse_01.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Materials\Neon_01.mat
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Materials\Neon_01.mat
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Materials\Neon_01.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Materials\Neon_01.mat.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Materials\Neon_01.mat.meta
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Materials\Neon_01.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Materials\Transparent.mat
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Materials\Transparent.mat
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Materials\Transparent.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Materials\Transparent.mat.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Materials\Transparent.mat.meta
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Materials\Transparent.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Mesh.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Mesh.meta
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Mesh.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Mesh\Corridor_01.FBX
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Mesh\Corridor_01.FBX
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Mesh\Corridor_01.FBX
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Mesh\Corridor_01.FBX.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Mesh\Corridor_01.FBX.meta
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Mesh\Corridor_01.FBX.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Mesh\Separator_01.FBX
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Mesh\Separator_01.FBX
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Mesh\Separator_01.FBX
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Mesh\Separator_01.FBX.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Mesh\Separator_01.FBX.meta
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Mesh\Separator_01.FBX.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Mesh\Separator_03.FBX
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Mesh\Separator_03.FBX
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Mesh\Separator_03.FBX
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Mesh\Separator_03.FBX.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Mesh\Separator_03.FBX.meta
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Mesh\Separator_03.FBX.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Mesh\Wall_01.FBX
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Mesh\Wall_01.FBX
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Mesh\Wall_01.FBX
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Mesh\Wall_01.FBX.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Mesh\Wall_01.FBX.meta
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Mesh\Wall_01.FBX.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Showroom pp.asset
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Showroom
+        pp.asset
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Showroom pp.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Showroom pp.asset.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Showroom
+        pp.asset.meta
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Showroom pp.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Textures.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Textures.meta
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Textures.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Textures\CreatedCubemap.cubemap
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Textures\CreatedCubemap.cubemap
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Textures\CreatedCubemap.cubemap
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Textures\CreatedCubemap.cubemap.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Textures\CreatedCubemap.cubemap.meta
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Textures\CreatedCubemap.cubemap.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Textures\Diffuse_01.png
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Textures\Diffuse_01.png
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Textures\Diffuse_01.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Textures\Diffuse_01.png.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Textures\Diffuse_01.png.meta
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Textures\Diffuse_01.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Textures\Neon_01.png
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Textures\Neon_01.png
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Textures\Neon_01.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Textures\Neon_01.png.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Textures\Neon_01.png.meta
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Textures\Neon_01.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Textures\Normal_01.png
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Textures\Normal_01.png
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Textures\Normal_01.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\_ShowRoom\Textures\Normal_01.png.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\_ShowRoom\Textures\Normal_01.png.meta
+      projectPath: Assets\ForceShield\Misc\_ShowRoom\Textures\Normal_01.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character.meta
+      projectPath: Assets\ForceShield\Misc\alien character.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation.meta
+      projectPath: Assets\ForceShield\Misc\alien character\animation.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation\alien character.controller
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation\alien character.controller
+      projectPath: Assets\ForceShield\Misc\alien character\animation\alien character.controller
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation\alien character.controller.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation\alien character.controller.meta
+      projectPath: Assets\ForceShield\Misc\alien character\animation\alien character.controller.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation\Alien@dead.FBX
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation\Alien@dead.FBX
+      projectPath: Assets\ForceShield\Misc\alien character\animation\Alien@dead.FBX
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation\Alien@dead.FBX.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation\Alien@dead.FBX.meta
+      projectPath: Assets\ForceShield\Misc\alien character\animation\Alien@dead.FBX.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation\Alien@flight.FBX
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation\Alien@flight.FBX
+      projectPath: Assets\ForceShield\Misc\alien character\animation\Alien@flight.FBX
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation\Alien@flight.FBX.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation\Alien@flight.FBX.meta
+      projectPath: Assets\ForceShield\Misc\alien character\animation\Alien@flight.FBX.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation\Alien@get _a_ hit (R).FBX
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation\Alien@get _a_ hit (R).FBX
+      projectPath: Assets\ForceShield\Misc\alien character\animation\Alien@get _a_
+        hit (R).FBX
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation\Alien@get _a_ hit (R).FBX.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation\Alien@get _a_ hit (R).FBX.meta
+      projectPath: Assets\ForceShield\Misc\alien character\animation\Alien@get _a_
+        hit (R).FBX.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation\Alien@get_ a_ gun.FBX
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation\Alien@get_ a_ gun.FBX
+      projectPath: Assets\ForceShield\Misc\alien character\animation\Alien@get_ a_
+        gun.FBX
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation\Alien@get_ a_ gun.FBX.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation\Alien@get_ a_ gun.FBX.meta
+      projectPath: Assets\ForceShield\Misc\alien character\animation\Alien@get_ a_
+        gun.FBX.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation\Alien@get_ a_ hit (L).FBX
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation\Alien@get_ a_ hit (L).FBX
+      projectPath: Assets\ForceShield\Misc\alien character\animation\Alien@get_ a_
+        hit (L).FBX
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation\Alien@get_ a_ hit (L).FBX.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation\Alien@get_ a_ hit (L).FBX.meta
+      projectPath: Assets\ForceShield\Misc\alien character\animation\Alien@get_ a_
+        hit (L).FBX.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation\Alien@idle.FBX
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation\Alien@idle.FBX
+      projectPath: Assets\ForceShield\Misc\alien character\animation\Alien@idle.FBX
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation\Alien@idle.FBX.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation\Alien@idle.FBX.meta
+      projectPath: Assets\ForceShield\Misc\alien character\animation\Alien@idle.FBX.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation\Alien@idle_pose_ with_
+        a_ gun.FBX
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation\Alien@idle_pose_ with_ a_ gun.FBX
+      projectPath: Assets\ForceShield\Misc\alien character\animation\Alien@idle_pose_
+        with_ a_ gun.FBX
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation\Alien@idle_pose_ with_
+        a_ gun.FBX.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation\Alien@idle_pose_ with_ a_ gun.FBX.meta
+      projectPath: Assets\ForceShield\Misc\alien character\animation\Alien@idle_pose_
+        with_ a_ gun.FBX.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation\Alien@shot.FBX
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation\Alien@shot.FBX
+      projectPath: Assets\ForceShield\Misc\alien character\animation\Alien@shot.FBX
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation\Alien@shot.FBX.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation\Alien@shot.FBX.meta
+      projectPath: Assets\ForceShield\Misc\alien character\animation\Alien@shot.FBX.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation\Materials.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation\Materials.meta
+      projectPath: Assets\ForceShield\Misc\alien character\animation\Materials.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation\Materials\03 - Default.mat
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation\Materials\03 - Default.mat
+      projectPath: Assets\ForceShield\Misc\alien character\animation\Materials\03
+        - Default.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\animation\Materials\03 - Default.mat.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\animation\Materials\03 - Default.mat.meta
+      projectPath: Assets\ForceShield\Misc\alien character\animation\Materials\03
+        - Default.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: "Assets\\ForceShield\\Misc\\alien character\\animation\\Materials\\\u043E\u0440\u0443\u0436\u0438\u0435
+        \u0434\u0438\u0444\u0443\u0437.mat"
+      fullPath: "C:\\Users\\dbc20\\unity_projects\\rocket-dodge-unity\\Assets\\ForceShield\\Misc\\alien
+        character\\animation\\Materials\\\u043E\u0440\u0443\u0436\u0438\u0435 \u0434\u0438\u0444\u0443\u0437.mat"
+      projectPath: "Assets\\ForceShield\\Misc\\alien character\\animation\\Materials\\\u043E\u0440\u0443\u0436\u0438\u0435
+        \u0434\u0438\u0444\u0443\u0437.mat"
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: "Assets\\ForceShield\\Misc\\alien character\\animation\\Materials\\\u043E\u0440\u0443\u0436\u0438\u0435
+        \u0434\u0438\u0444\u0443\u0437.mat.meta"
+      fullPath: "C:\\Users\\dbc20\\unity_projects\\rocket-dodge-unity\\Assets\\ForceShield\\Misc\\alien
+        character\\animation\\Materials\\\u043E\u0440\u0443\u0436\u0438\u0435 \u0434\u0438\u0444\u0443\u0437.mat.meta"
+      projectPath: "Assets\\ForceShield\\Misc\\alien character\\animation\\Materials\\\u043E\u0440\u0443\u0436\u0438\u0435
+        \u0434\u0438\u0444\u0443\u0437.mat.meta"
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\Materials.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\Materials.meta
+      projectPath: Assets\ForceShield\Misc\alien character\Materials.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\Materials\aliens body diffuse.mat
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\Materials\aliens body diffuse.mat
+      projectPath: Assets\ForceShield\Misc\alien character\Materials\aliens body
+        diffuse.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\Materials\aliens body diffuse.mat.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\Materials\aliens body diffuse.mat.meta
+      projectPath: Assets\ForceShield\Misc\alien character\Materials\aliens body
+        diffuse.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\Materials\aliens gun diffuse.mat
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\Materials\aliens gun diffuse.mat
+      projectPath: Assets\ForceShield\Misc\alien character\Materials\aliens gun diffuse.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\Materials\aliens gun diffuse.mat.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\Materials\aliens gun diffuse.mat.meta
+      projectPath: Assets\ForceShield\Misc\alien character\Materials\aliens gun diffuse.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\Mesh.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\Mesh.meta
+      projectPath: Assets\ForceShield\Misc\alien character\Mesh.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\Mesh\Materials.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\Mesh\Materials.meta
+      projectPath: Assets\ForceShield\Misc\alien character\Mesh\Materials.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: "Assets\\ForceShield\\Misc\\alien character\\Mesh\\Materials\\\u043E\u0440\u0443\u0436\u0438\u0435
+        \u0434\u0438\u0444\u0443\u0437.mat"
+      fullPath: "C:\\Users\\dbc20\\unity_projects\\rocket-dodge-unity\\Assets\\ForceShield\\Misc\\alien
+        character\\Mesh\\Materials\\\u043E\u0440\u0443\u0436\u0438\u0435 \u0434\u0438\u0444\u0443\u0437.mat"
+      projectPath: "Assets\\ForceShield\\Misc\\alien character\\Mesh\\Materials\\\u043E\u0440\u0443\u0436\u0438\u0435
+        \u0434\u0438\u0444\u0443\u0437.mat"
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: "Assets\\ForceShield\\Misc\\alien character\\Mesh\\Materials\\\u043E\u0440\u0443\u0436\u0438\u0435
+        \u0434\u0438\u0444\u0443\u0437.mat.meta"
+      fullPath: "C:\\Users\\dbc20\\unity_projects\\rocket-dodge-unity\\Assets\\ForceShield\\Misc\\alien
+        character\\Mesh\\Materials\\\u043E\u0440\u0443\u0436\u0438\u0435 \u0434\u0438\u0444\u0443\u0437.mat.meta"
+      projectPath: "Assets\\ForceShield\\Misc\\alien character\\Mesh\\Materials\\\u043E\u0440\u0443\u0436\u0438\u0435
+        \u0434\u0438\u0444\u0443\u0437.mat.meta"
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\Mesh\Mesh.FBX
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\Mesh\Mesh.FBX
+      projectPath: Assets\ForceShield\Misc\alien character\Mesh\Mesh.FBX
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\Mesh\Mesh.FBX.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\Mesh\Mesh.FBX.meta
+      projectPath: Assets\ForceShield\Misc\alien character\Mesh\Mesh.FBX.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\prefab.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\prefab.meta
+      projectPath: Assets\ForceShield\Misc\alien character\prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\prefab\alien character.prefab
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\prefab\alien character.prefab
+      projectPath: Assets\ForceShield\Misc\alien character\prefab\alien character.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\prefab\alien character.prefab.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\prefab\alien character.prefab.meta
+      projectPath: Assets\ForceShield\Misc\alien character\prefab\alien character.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\texture.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\texture.meta
+      projectPath: Assets\ForceShield\Misc\alien character\texture.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\texture\alien body diffuse PSD.psd
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\texture\alien body diffuse PSD.psd
+      projectPath: Assets\ForceShield\Misc\alien character\texture\alien body diffuse
+        PSD.psd
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\texture\alien body diffuse PSD.psd.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\texture\alien body diffuse PSD.psd.meta
+      projectPath: Assets\ForceShield\Misc\alien character\texture\alien body diffuse
+        PSD.psd.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\texture\alien body diffuse.tga
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\texture\alien body diffuse.tga
+      projectPath: Assets\ForceShield\Misc\alien character\texture\alien body diffuse.tga
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\texture\alien body diffuse.tga.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\texture\alien body diffuse.tga.meta
+      projectPath: Assets\ForceShield\Misc\alien character\texture\alien body diffuse.tga.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\texture\alien body normal.tga
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\texture\alien body normal.tga
+      projectPath: Assets\ForceShield\Misc\alien character\texture\alien body normal.tga
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\texture\alien body normal.tga.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\texture\alien body normal.tga.meta
+      projectPath: Assets\ForceShield\Misc\alien character\texture\alien body normal.tga.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\texture\alien body specular.tga
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\texture\alien body specular.tga
+      projectPath: Assets\ForceShield\Misc\alien character\texture\alien body specular.tga
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\texture\alien body specular.tga.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\texture\alien body specular.tga.meta
+      projectPath: Assets\ForceShield\Misc\alien character\texture\alien body specular.tga.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\texture\alien gun diffuse PSD.psd
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\texture\alien gun diffuse PSD.psd
+      projectPath: Assets\ForceShield\Misc\alien character\texture\alien gun diffuse
+        PSD.psd
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\texture\alien gun diffuse PSD.psd.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\texture\alien gun diffuse PSD.psd.meta
+      projectPath: Assets\ForceShield\Misc\alien character\texture\alien gun diffuse
+        PSD.psd.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\texture\alien gun diffuse.tga
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\texture\alien gun diffuse.tga
+      projectPath: Assets\ForceShield\Misc\alien character\texture\alien gun diffuse.tga
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\texture\alien gun diffuse.tga.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\texture\alien gun diffuse.tga.meta
+      projectPath: Assets\ForceShield\Misc\alien character\texture\alien gun diffuse.tga.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\texture\alien gun normal.tga
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\texture\alien gun normal.tga
+      projectPath: Assets\ForceShield\Misc\alien character\texture\alien gun normal.tga
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\texture\alien gun normal.tga.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\texture\alien gun normal.tga.meta
+      projectPath: Assets\ForceShield\Misc\alien character\texture\alien gun normal.tga.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\texture\alien gun specular.tga
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\texture\alien gun specular.tga
+      projectPath: Assets\ForceShield\Misc\alien character\texture\alien gun specular.tga
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\alien character\texture\alien gun specular.tga.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\alien
+        character\texture\alien gun specular.tga.meta
+      projectPath: Assets\ForceShield\Misc\alien character\texture\alien gun specular.tga.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\hitParticle.prefab
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\hitParticle.prefab
+      projectPath: Assets\ForceShield\Misc\hitParticle.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\hitParticle.prefab.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\hitParticle.prefab.meta
+      projectPath: Assets\ForceShield\Misc\hitParticle.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\LaserBullet.prefab
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\LaserBullet.prefab
+      projectPath: Assets\ForceShield\Misc\LaserBullet.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\LaserBullet.prefab.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\LaserBullet.prefab.meta
+      projectPath: Assets\ForceShield\Misc\LaserBullet.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Baked Texture Pack.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\Baked Texture Pack.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Baked Texture Pack.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Baked Texture Pack\Gun_Pattern1.png
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\Baked Texture Pack\Gun_Pattern1.png
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Baked Texture Pack\Gun_Pattern1.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Baked Texture Pack\Gun_Pattern1.png.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\Baked Texture Pack\Gun_Pattern1.png.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Baked Texture Pack\Gun_Pattern1.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Baked Texture Pack\Gun_Pattern2.png
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\Baked Texture Pack\Gun_Pattern2.png
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Baked Texture Pack\Gun_Pattern2.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Baked Texture Pack\Gun_Pattern2.png.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\Baked Texture Pack\Gun_Pattern2.png.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Baked Texture Pack\Gun_Pattern2.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Baked Texture Pack\Gun_Standard.png
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\Baked Texture Pack\Gun_Standard.png
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Baked Texture Pack\Gun_Standard.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Baked Texture Pack\Gun_Standard.png.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\Baked Texture Pack\Gun_Standard.png.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Baked Texture Pack\Gun_Standard.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\PBR Texture.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Ambient Occlusion
+        Map from Mesh Gun_Hig.png
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\PBR Texture\Ambient Occlusion Map from Mesh Gun_Hig.png
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Ambient
+        Occlusion Map from Mesh Gun_Hig.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Ambient Occlusion
+        Map from Mesh Gun_Hig.png.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\PBR Texture\Ambient Occlusion Map from Mesh Gun_Hig.png.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Ambient
+        Occlusion Map from Mesh Gun_Hig.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_BaseColor.png
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\PBR Texture\Gun_Low_Gun_Hig_BaseColor.png
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_BaseColor.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_BaseColor.png.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\PBR Texture\Gun_Low_Gun_Hig_BaseColor.png.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_BaseColor.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Emissive.png
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Emissive.png
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Emissive.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Emissive.png.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Emissive.png.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Emissive.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Height.png
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Height.png
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Height.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Height.png.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Height.png.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Height.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Metallic.png
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Metallic.png
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Metallic.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Metallic.png.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Metallic.png.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Metallic.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Normal.png
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Normal.png
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Normal.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Normal.png.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Normal.png.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Normal.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Roughness.png
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Roughness.png
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Roughness.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Roughness.png.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Roughness.png.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\PBR Texture\Gun_Low_Gun_Hig_Roughness.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Shader.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\Shader.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Shader.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Shader\Baked Standard.mat
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\Shader\Baked Standard.mat
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Shader\Baked Standard.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Shader\Baked Standard.mat.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\Shader\Baked Standard.mat.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Shader\Baked Standard.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Shader\Baked_Pattern1.mat
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\Shader\Baked_Pattern1.mat
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Shader\Baked_Pattern1.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Shader\Baked_Pattern1.mat.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\Shader\Baked_Pattern1.mat.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Shader\Baked_Pattern1.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Shader\Baked_Pattern2.mat
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\Shader\Baked_Pattern2.mat
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Shader\Baked_Pattern2.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Shader\Baked_Pattern2.mat.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\Shader\Baked_Pattern2.mat.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Shader\Baked_Pattern2.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Shader\Gun_PBR.mat
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\Shader\Gun_PBR.mat
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Shader\Gun_PBR.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Shader\Gun_PBR.mat.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Material\Shader\Gun_PBR.mat.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Material\Shader\Gun_PBR.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Model.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Model.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Model.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Model\Sci-fi_Gun LowPoly.fbx
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Model\Sci-fi_Gun LowPoly.fbx
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Model\Sci-fi_Gun LowPoly.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Model\Sci-fi_Gun LowPoly.fbx.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Model\Sci-fi_Gun LowPoly.fbx.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Model\Sci-fi_Gun LowPoly.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Prefab.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Prefab.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Prefab\LowPoly Scifi_Gun.prefab
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Prefab\LowPoly Scifi_Gun.prefab
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Prefab\LowPoly Scifi_Gun.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Prefab\LowPoly Scifi_Gun.prefab.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Prefab\LowPoly Scifi_Gun.prefab.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Prefab\LowPoly Scifi_Gun.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Scene.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Scene.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Scene.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Scene\Scene.unity
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Scene\Scene.unity
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Scene\Scene.unity
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Misc\Sci-Fi Gun\Scene\Scene.unity.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Misc\Sci-Fi
+        Gun\Scene\Scene.unity.meta
+      projectPath: Assets\ForceShield\Misc\Sci-Fi Gun\Scene\Scene.unity.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Prefabs.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Prefabs.meta
+      projectPath: Assets\ForceShield\Prefabs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Prefabs\Shield.prefab
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Prefabs\Shield.prefab
+      projectPath: Assets\ForceShield\Prefabs\Shield.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Prefabs\Shield.prefab.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Prefabs\Shield.prefab.meta
+      projectPath: Assets\ForceShield\Prefabs\Shield.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Responsive Energy Shield.pdf
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Responsive
+        Energy Shield.pdf
+      projectPath: Assets\ForceShield\Responsive Energy Shield.pdf
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Responsive Energy Shield.pdf.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Responsive
+        Energy Shield.pdf.meta
+      projectPath: Assets\ForceShield\Responsive Energy Shield.pdf.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Script.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Script.meta
+      projectPath: Assets\ForceShield\Script.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Script\LaserBullet.cs
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Script\LaserBullet.cs
+      projectPath: Assets\ForceShield\Script\LaserBullet.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Script\LaserBullet.cs.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Script\LaserBullet.cs.meta
+      projectPath: Assets\ForceShield\Script\LaserBullet.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Script\ShieldCollision.cs
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Script\ShieldCollision.cs
+      projectPath: Assets\ForceShield\Script\ShieldCollision.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Script\ShieldCollision.cs.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Script\ShieldCollision.cs.meta
+      projectPath: Assets\ForceShield\Script\ShieldCollision.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Script\UserControl.cs
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Script\UserControl.cs
+      projectPath: Assets\ForceShield\Script\UserControl.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Script\UserControl.cs.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Script\UserControl.cs.meta
+      projectPath: Assets\ForceShield\Script\UserControl.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Shader.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Shader.meta
+      projectPath: Assets\ForceShield\Shader.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Shader\ForceShield.shader
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Shader\ForceShield.shader
+      projectPath: Assets\ForceShield\Shader\ForceShield.shader
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\ForceShield\Shader\ForceShield.shader.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\ForceShield\Shader\ForceShield.shader.meta
+      projectPath: Assets\ForceShield\Shader\ForceShield.shader.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Player.prefab
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\Prefabs\Player.prefab
+      projectPath: Assets\Prefabs\Player.prefab
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Prefabs\Shield.prefab
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\Prefabs\Shield.prefab
+      projectPath: Assets\Prefabs\Shield.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Shield.prefab.meta
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\Prefabs\Shield.prefab.meta
+      projectPath: Assets\Prefabs\Shield.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\InfiniteGameScene.unity
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\Scenes\InfiniteGameScene.unity
+      projectPath: Assets\Scenes\InfiniteGameScene.unity
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scenes\NonInfiniteGameScene.unity
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\Scenes\NonInfiniteGameScene.unity
+      projectPath: Assets\Scenes\NonInfiniteGameScene.unity
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scripts\GameManager.cs
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\Scripts\GameManager.cs
+      projectPath: Assets\Scripts\GameManager.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scripts\Player.cs
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\Scripts\Player.cs
+      projectPath: Assets\Scripts\Player.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scripts\Rocket.cs
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\Assets\Scripts\Rocket.cs
+      projectPath: Assets\Scripts\Rocket.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     currentUsername: 
     unlockFileMenuContent:
       m_Text: Release Lock
@@ -4273,13 +5641,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-02-27T12:51:01.414-05:00
+    updatedTimeString: 2023-03-11T18:42:00.853-05:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-02-27T12:51:02.017-05:00
+    updatedTimeString: 2023-03-11T18:42:00.844-05:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-02-27T12:50:55.670-05:00
+    updatedTimeString: 2023-03-11T18:41:36.431-05:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -4318,14 +5686,14 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 505.6
-    width: 1179.8
-    height: 277.4
+    y: 630
+    width: 1475
+    height: 361
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -4343,36 +5711,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\dbc20\Documents\unity\rocket-dodge-unity
+  m_LastProjectPath: C:\Users\dbc20\unity_projects\rocket-dodge-unity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 66}
-    m_SelectedIDs: 4e860000
-    m_LastClickedID: 34382
-    m_ExpandedIDs: 000000004686000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: 385d0000
+    m_LastClickedID: 23864
+    m_ExpandedIDs: 00000000265d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Scenes
+      m_OriginalName: Scenes
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 23864
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -4386,7 +5754,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000265d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -4458,14 +5826,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1180.8
-    y: 72
-    width: 354.19995
-    height: 711
+    x: 1476
+    y: 73
+    width: 443
+    height: 918
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -4477,7 +5845,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 529.2001
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -4499,14 +5867,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 72
-    width: 290.2
-    height: 412.6
+    y: 73
+    width: 363
+    height: 536
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -4516,7 +5884,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 8279ffffd079ffff0e7bffff407bffff4e7bffff5a85ffff5cceffff94cfffffdc860000
+      m_ExpandedIDs: 14fdfaff16fdfaffae1fffffe8bcffff36bdffff84beffffc0beffffcebeffff48f6ffff4af6ffff2afbffff8a5e0000026c0000466c0000948400003c990000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -4556,14 +5924,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 291.2
-    y: 72
-    width: 887.60004
-    height: 412.6
+    x: 364
+    y: 73
+    width: 1110
+    height: 536
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -4574,7 +5942,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -99.20001, y: -26}
+      snapOffsetDelta: {x: -101, y: -26}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -4617,7 +5985,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -4798,9 +6166,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.338, y: 29.555187, z: 133.122}
+    m_Target: {x: 0.5014177, y: 1.9033003, z: 0.60907257}
     speed: 2
-    m_Value: {x: 5.338, y: 29.555187, z: 133.122}
+    m_Value: {x: 0.5014177, y: 1.9033003, z: 0.60907257}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -4847,13 +6215,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.06920179, y: 0.038891267, z: -0.002719302, w: 0.9968519}
+    m_Target: {x: -0.00030853951, y: -0.04107815, z: 0.000048403006, w: -0.99916905}
     speed: 2
-    m_Value: {x: 0.069201015, y: 0.03889083, z: -0.0027192715, w: 0.9968408}
+    m_Value: {x: -0.00030853547, y: -0.04107761, z: 0.000048402373, w: -0.99915594}
   m_Size:
-    m_Target: 13.353396
+    m_Target: 10.715138
     speed: 2
-    m_Value: 13.353396
+    m_Value: 10.715138
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -4894,14 +6262,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 291.2
-    y: 72
-    width: 887.60004
-    height: 412.6
+    x: 364
+    y: 73
+    width: 1110
+    height: 536
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -4912,7 +6280,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 696, y: 391.6}
+  m_TargetSize: {x: 916, y: 515}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -4927,10 +6295,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -139.2
-    m_HBaseRangeMax: 139.2
-    m_VBaseRangeMin: -78.32
-    m_VBaseRangeMax: 78.32
+    m_HBaseRangeMin: -458
+    m_HBaseRangeMax: 458
+    m_VBaseRangeMin: -257.5
+    m_VBaseRangeMax: 257.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -4948,23 +6316,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 887.60004
-      height: 391.6
-    m_Scale: {x: 2, y: 2}
-    m_Translation: {x: 443.80002, y: 195.8}
+      width: 1110
+      height: 515
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 555, y: 257.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -221.90001
-      y: -97.9
-      width: 443.80002
-      height: 195.8
+      x: -555
+      y: -257.5
+      width: 1110
+      height: 515
     m_MinimalGUI: 1
-  m_defaultScale: 2
-  m_LastWindowPixelSize: {x: 2219, y: 1031.5}
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1110, y: 536}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -4986,14 +6354,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 505.6
-    width: 1179.8
-    height: 277.4
+    y: 630
+    width: 1475
+    height: 361
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
