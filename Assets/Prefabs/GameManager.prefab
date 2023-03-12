@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2608938999605158673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2608938999605158675}
+  - component: {fileID: 2608938999605158674}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2608938999605158675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2608938999605158673}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5014177, y: 1.9033003, z: 0.60907257}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2608938999605158674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2608938999605158673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8395e7f0f9b4fd4984f431b7a18a1ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnInterval: 1
+  spawnIntervalDecrease: 1.25
+  spawnIntervalDecreaseIncrease: 1
+  player: {fileID: 0}
+  rocketPrefab: {fileID: 8314850214761855199, guid: cfbb8b7b3998cbd45923050cf0b6c77a, type: 3}
+  rocketSpeed: 10
+  rocketRotationSpeed: 1000
+  score: {fileID: 0}
+  isInfinite: 0
+  explosionPrefab: {fileID: 7620539322536980011, guid: 0277f8fcdefb4bf47a18538623570007, type: 3}
+  explosionAudio: {fileID: 8300000, guid: f0b860246950f5c4cbee49133909746c, type: 3}
+  autoExplodeRockets: 0
+  explodeTime: 10
+  pauseMenuScreen: {fileID: 0}
+  gameOverScreen: {fileID: 0}

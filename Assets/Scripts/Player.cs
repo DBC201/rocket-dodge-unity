@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class Player : MonoBehaviour
 
 	public GameObject shield;
 	public AudioSource shieldDieSource;
+	public Slider shieldBar;
 
 	private float m_shieldRecharge;
 	private float m_shieldDuration;
@@ -22,6 +24,8 @@ public class Player : MonoBehaviour
 	private void Start() {
 		m_shieldRecharge = shieldRechargeInSeconds;
 		m_shieldDuration = shieldDurationInSeconds;
+		shieldBar.value = 0;
+		shieldBar.fillRect.GetComponent<Image>().color = Color.red;
 	}
 
     private void Awake()
@@ -33,6 +37,7 @@ public class Player : MonoBehaviour
     {		
 		if (shieldEnabled) {
 			m_shieldDuration -= Time.deltaTime;
+			shieldBar.value = m_shieldDuration/shieldDurationInSeconds;
 			if (m_shieldDuration <= 0) {
 				shieldEnabled = false;
 				m_shieldDuration = shieldDurationInSeconds;
@@ -41,14 +46,18 @@ public class Player : MonoBehaviour
 					shieldDieSource.Play();
 				}
 				shield.SetActive(false);
+				shieldBar.value = (shieldRechargeInSeconds - m_shieldRecharge)/shieldRechargeInSeconds;
+				shieldBar.fillRect.GetComponent<Image>().color = Color.red;
 				//Debug.Log("shield deactivated");
 			}
 		}
 		else {
 			m_shieldRecharge -= Time.deltaTime;
-			if (m_shieldRecharge < 0) {
+			if (m_shieldRecharge <= 0) {
 				m_shieldRecharge = 0;
+				shieldBar.fillRect.GetComponent<Image>().color = Color.green;
 			}
+			shieldBar.value = (shieldRechargeInSeconds - m_shieldRecharge)/shieldRechargeInSeconds;
 		}
 
 
@@ -98,7 +107,7 @@ public class Player : MonoBehaviour
 
 	void OnCollisionEnter(Collision collision) {
 		if (collision.gameObject.tag == "Rocket" && !shieldEnabled) {
-			gameManager.MainMenu();
+			gameManager.PlayerDead();
 		}
 	}
 }

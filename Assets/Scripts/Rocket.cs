@@ -50,7 +50,6 @@ public class Rocket : MonoBehaviour
         }
 		else if (collision.gameObject.tag == "Player") {
 			Instantiate(explosionPrefab, transform.position, Quaternion.identity);
-			score.addScore(10);
 			Destroy(this.gameObject);
 		}
     }

@@ -18,7 +18,12 @@ public class GameManager : MonoBehaviour
 	public AudioClip explosionAudio;
 	public bool autoExplodeRockets = false;
 	public float explodeTime = 10f;
+	public GameObject pauseMenuScreen;
+	public GameObject gameOverScreen;
 
+
+	private bool gamePaused = false;
+	private bool gameOver = false;
 	private float m_interval;
 	private Vector3 m_origin;
 
@@ -39,6 +44,8 @@ public class GameManager : MonoBehaviour
 		if (!isInfinite) {
 			setAxes();
 		}
+
+		Resume();
 	}
 
 	void setAxes() {
@@ -120,7 +127,52 @@ public class GameManager : MonoBehaviour
 		if (!isInfinite) {
 			KeepInCamera(player.gameObject);
 		}
+
+		 if (Input.GetKeyDown(KeyCode.Escape)) {
+			if (gamePaused) {
+				ResumeGame();
+			}
+			else {
+				PauseGame();
+			}
+		}
     }
+
+	void Pause() {
+		Time.timeScale = 0;
+	}
+
+	void Resume() {
+		Time.timeScale = 1f;
+	}
+
+	public void PauseGame() {
+		if (!gameOver) {
+			Pause();
+			pauseMenuScreen.SetActive(true);
+			gamePaused = true;
+		}
+	}
+
+	public void ResumeGame() {
+		if (!gameOver) {
+			Resume();
+			pauseMenuScreen.SetActive(false);
+			gamePaused = false;
+		}
+	}
+
+	public void ReloadGame() {
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+	}
+
+	public void PlayerDead() {
+		Pause();
+		float scoreVal = score.GetComponent<Score>().GetScore();
+		gameOverScreen.GetComponent<GameOverScript>().SetScore(scoreVal);
+		gameOverScreen.SetActive(true);
+		gameOver = true;
+	}
 
 	public void MainMenu() {
 		if (isInfinite) {

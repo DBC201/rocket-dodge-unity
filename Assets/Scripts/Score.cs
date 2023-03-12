@@ -24,4 +24,8 @@ public class Score : MonoBehaviour
         score += Time.deltaTime;
 		text.text = "Score: " + ((int)score).ToString();
     }
+
+	public float GetScore() {
+		return score;
+	}
 }
