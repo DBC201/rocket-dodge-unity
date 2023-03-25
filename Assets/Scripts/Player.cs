@@ -13,6 +13,8 @@ public class Player : MonoBehaviour
 	public AudioSource shieldDieSource;
 	public Slider shieldBar;
 
+	public GameObject background;
+
 	private float m_shieldRecharge;
 	private float m_shieldDuration;
 
@@ -98,10 +100,18 @@ public class Player : MonoBehaviour
 
 		if (left) {
 			transform.Rotate(new Vector3(0, rotationSpeed, 0) * Time.deltaTime * -1);
+
+			if (background != null) {
+				background.transform.Rotate(new Vector3(0, 0, rotationSpeed) * Time.deltaTime * -1);
+			}
 		}
 
 		if (right) {
 			transform.Rotate(new Vector3(0, rotationSpeed, 0) * Time.deltaTime);
+
+			if (background != null) {
+				background.transform.Rotate(new Vector3(0, 0, rotationSpeed) * Time.deltaTime);
+			}
 		}
     }
 
