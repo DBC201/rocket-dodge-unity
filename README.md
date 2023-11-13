@@ -3,6 +3,10 @@ Dodge the rockets to survive.
 
 Top bar is for shield recharging, when it turns green space can be pressed for activation.
 
+## Play on itch.io
+[https://dbc201.itch.io/rocket-dodge](https://dbc201.itch.io/rocket-dodge)
+
+## Play on windows
 Unzip the build folder and run "rocket dodge.exe" on windows to play the game.
 
 ## Assets Used
