@@ -8,6 +8,7 @@ Top bar is for shield recharging, when it turns green space can be pressed for a
 
 ## Play on windows
 https://github.com/DBC201/rocket-dodge-unity/releases/tag/v1.0.0
+
 Unzip the build folder and run "rocket dodge.exe" on windows to play the game.
 
 ## Assets Used
